@@ -13,31 +13,7 @@ body {
     margin: auto;
     max-width: 95%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr auto;
     grid-gap: 1rem;
-}
-
-.box{
-    height: 200px;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    font-size: 2rem;
-    font-weight: bold;
-}
-
-#red{background-color:red}
-#lime{background-color:lime}
-#pink{background-color:pink}
-#grey{background-color:grey}
-#skyblue{background-color:skyblue}
-#green{background-color:green}
-
-#website-container{
-    width: 900px;
-    margin: 2rem auto;
-    max-width: 95%;
 }
 
 .droppable-container > .droppable{
